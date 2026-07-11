@@ -1,0 +1,24 @@
+/* Custom styles */
+body {
+    background-color: #f8fafc;
+}
+
+/* Smooth scrolling */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Card hover effect */
+.school-card {
+    transition: all 0.3s ease;
+}
+
+.school-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+/* Input focus ring custom color */
+input:focus {
+    outline: none;
+}
