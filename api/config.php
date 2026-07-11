@@ -1,6 +1,6 @@
 <?php
 $host    = getenv('MYSQLHOST')     ?: 'localhost';
-$db      = getenv('MYSQLDATABASE') ?: 'spksek';
+$db      = getenv('MYSQL_DATABASE') ?: getenv('MYSQLDATABASE') ?: 'spksek';
 $user    = getenv('MYSQLUSER')     ?: 'root';
 $pass    = getenv('MYSQLPASSWORD') ?: '';
 $port    = getenv('MYSQLPORT')     ?: '3306';
