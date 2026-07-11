@@ -1,9 +1,0 @@
-[phases.setup]
-nixpkgs = ["php83-pdo", "php83-mysql"]
-
-[build]
-cmd = "echo 'Building PHP app'"
-
-[start]
-cmd = "php -S 0.0.0.0:8080"
-
