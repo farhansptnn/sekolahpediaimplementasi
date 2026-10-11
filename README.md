@@ -10,6 +10,8 @@
 
 **Sistem Pendukung Keputusan (SPK) berbasis web untuk merekomendasikan sekolah terbaik menggunakan metode TOPSIS.**
 
+> Aplikasi fullstack PHP + MySQL dengan algoritma TOPSIS yang membantu calon siswa & orang tua memilih sekolah SMA/SMK secara objektif berdasarkan 4 kriteria: Nilai UTBK, Akreditasi, Rasio Guru/Siswa, dan Akses Transportasi. Dilengkapi dashboard admin, sistem login berbasis role, personalisasi bobot kriteria per-user, serta perbandingan data sekolah lintas tahun.
+
 </div>
 
 ---
