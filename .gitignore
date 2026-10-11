@@ -1,0 +1,36 @@
+# Dependencies
+/vendor/
+
+# Environment & Config (jika pakai .env di masa depan)
+.env
+.env.local
+
+# OS Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+error_log
+php_errors.log
+
+# Temp/Debug files
+fix_images.php
+fix_users.php
+migrate_db.php
+reset_password.php
+update_data.php
+update_data_fix.php
+api/check_cols.php
+api/test.php
+
+# Windows
+ehthumbs.db
